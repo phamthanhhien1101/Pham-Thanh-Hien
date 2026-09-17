@@ -3,84 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quê Hương Thái Bình 🌾</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
-        body { line-height: 1.6; color: #333; background: #fefefe; }
-        header { background: linear-gradient(135deg, #2d8742, #4caf50); color: white; text-align: center; padding: 50px 20px; }
-        h1 { font-size: 2.2rem; margin-bottom: 10px; }
-        .subtitle { font-size: 1.1rem; opacity: 0.9; }
-        section { max-width: 900px; margin: 40px auto; padding: 0 20px; }
-        h2 { color: #2d8742; margin-bottom: 15px; border-bottom: 2px solid #4caf50; padding-bottom: 8px; }
-        .card { background: #fff; border-radius: 12px; box-shadow: 0 3px 10px rgba(0,0,0,0.1); padding: 20px; margin-bottom: 20px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
-        .item { background: #f1f8e9; padding: 15px; border-radius: 8px; text-align: center; }
-        footer { background: #333; color: white; text-align: center; padding: 20px; margin-top: 40px; font-size: 0.9rem; }
-        ul, ol { padding-left: 25px; margin-top: 10px; }
-        a { color: #2d8742; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
+    <title>Ẩm Thực ✨ Quê Hương Thái Bình</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+<nav>
+    <ul>
+        <li><a href="index.html">🏠 Trang Chủ</a></li>
+        <li><a href="about.html">📍 Giới Thiệu</a></li>
+        <li><a href="culture.html">🎭 Văn Hóa</a></li>
+        <li><a href="food.html" class="active">🍜 Ẩm Thực</a></li>
+    </ul>
+</nav>
+
 <header>
-    <h1>🌾 Quê Hương Thái Bình</h1>
-    <p class="subtitle">Vựa lúa miền Bắc — Đất văn hiến, con người cần cù</p>
+    <h1>🍽 Ẩm Thực & Đặc Sản</h1>
+    <p class="subtitle">Hương vị quê nhà — ăn một lần nhớ mãi 💛</p>
 </header>
 
 <section>
     <div class="card">
-        <h2>📍 Vị trí & Tổng quan</h2>
-        <p><strong>Thái Bình</strong> là tỉnh ven biển thuộc vùng Đồng bằng sông Hồng, miền Bắc Việt Nam. Nổi tiếng với biệt danh <em>"Quê lúa"</em> — vựa lúa lớn của miền Bắc, đất đai màu mỡ, được sông nước bao bọc.</p>
+        <h2>Đặc sản nổi bật 🔥</h2>
         <ul>
-            <li><strong>Diện tích:</strong> khoảng 1.584 km²</li>
-            <li><strong>Dân số:</strong> hơn 2 triệu người</li>
-            <li><strong>Thủ phủ:</strong> Thành phố Thái Bình</li>
-            <li><strong>Bờ biển:</strong> dài 53 km với các bãi biển đẹp như Đồng Châu, Cồn Vành</li>
-            <li><strong>Tham khảo thêm:</strong> <a href="https://vi.wikipedia.org/wiki/Th%C3%A1i_B%C3%ACnh" target="_blank">Wikipedia Thái Bình</a></li>
+            <li><strong>Bánh cáy làng Nguyễn 🧈:</strong> Gạo nếp rang, đường, gừng, đậu xanh — ngọt bùi, thơm lừng. Món quà biếu số một của Thái Bình!</li>
+            <li><strong>Canh cá Quỳnh Côi 🍲:</strong> Cá sông tươi nấu với me, cà chua — chua ngọt thanh mát, ăn kèm bánh đa nóng hổi.</li>
+            <li><strong>Nem chạo Vị Thủy 🥩:</strong> Thịt nạc nướng, bì, cuộn bún, rau sống, chấm nước mắm chua ngọt — ngon không cưỡng nổi!</li>
+            <li><strong>Nộm sứa Thái Thụy 🥗:</strong> Sứa tươi trộn rau thơm, đậu phộng — thanh mát, đặc sản vùng biển.</li>
         </ul>
     </div>
 
     <div class="card">
-        <h2>🏛️ Di tích & Danh thắng</h2>
+        <h2>Những món khác 🌟</h2>
         <div class="grid">
-            <div class="item"><strong>Chùa Keo</strong><br>Kiến trúc cổ nổi tiếng, độc đáo</div>
-            <div class="item"><strong>Đền Trần</strong><br>Kỷ niệm vương triều Trần hào hùng</div>
-            <div class="item"><strong>Biển Đồng Châu</strong><br>Bãi biển hoang sơ, hấp dẫn</div>
-            <div class="item"><strong>Nhà thờ Bác Trạch</strong><br>Kiến trúc Gothic ấn tượng</div>
+            <div class="grid-item">
+                <strong>Bánh gai Đại Đồng</strong>
+                <p>Vỏ đen mềm, nhân đậu xanh ngọt bùi</p>
+            </div>
+            <div class="grid-item">
+                <strong>Gỏi cá mè Vũ Thắng</strong>
+                <p>Cá tươi trộn gia vị, ăn kèm lá thơm</p>
+            </div>
+            <div class="grid-item">
+                <strong>Cá nướng sông Hồng</strong>
+                <p>Thịt ngọt, thơm lừng than hồng</p>
+            </div>
+            <div class="grid-item">
+                <strong>Gạo nếp cái hoa vàng</strong>
+                <p>Dẻo thơm — niềm tự hào của người Thái Bình</p>
+            </div>
         </div>
     </div>
 
     <div class="card">
-        <h2>🍽️ Ẩm thực đặc sản</h2>
-        <ul>
-            <li><strong>Bánh cáy làng Nguyễn</strong> — đặc sản nổi tiếng nhất</li>
-            <li><strong>Canh cá Quỳnh Côi</strong> — hương vị đậm đà, khó quên</li>
-            <li><strong>Nem chạo Vị Thủy, nộm sứa Thái Thụy</strong></li>
-            <li><strong>Bánh gai Đại Đồng, gỏi cá mè Vũ Thắng</strong></li>
-        </ul>
+        <h2>Lời nhắn 💬</h2>
+        <p>Đến Thái Bình mà chưa ăn các món trên thì coi như chưa đến! 😄 Mỗi món đều có hương vị riêng, gắn với từng vùng, từng làng — giản dị nhưng đậm đà tình quê hương 💚</p>
     </div>
 
     <div class="card">
-        <h2>🎭 Văn hóa & Lễ hội</h2>
-        <p>Thái Bình có gần 30 lễ hội truyền thống, nổi bật:</p>
-        <ul>
-            <li><strong>Hội Keo</strong> — lễ hội lớn, thu hút đông đảo người tham dự</li>
-            <li><strong>Nghệ thuật múa rối nước Nguyên Xá</strong> độc đáo</li>
-            <li><strong>Chèo Thái Bình, hát văn</strong> — nét văn hóa đặc sắc</li>
-            <li>Các làng nghề truyền thống: chạm bạc, thêu ren, dệt chiếu</li>
-        </ul>
-    </div>
-
-    <div class="card">
-        <h2>💚 Tự hào quê hương</h2>
-        <p>Thái Bình là quê hương của nhà bác học <strong>Lê Quý Đôn</strong> và nhiều danh nhân, anh hùng dân tộc. Người dân Thái Bình nổi tiếng cần cù, hiếu học, chân chất và mến khách.</p>
-        <p style="margin-top:10px; font-style:italic; color:#2d8742;">"Đất bằng phẳng, người thẳng thắn" — đó là nét đẹp của mảnh đất thanh bình này!</p>
+        <p style="font-size:0.85rem; color:#888;">
+            Nguồn: Cổng thông tin Du lịch Thái Bình, Tạp chí Ẩm thực Việt Nam
+        </p>
     </div>
 </section>
 
 <footer>
-    <p>🌾 Trang giới thiệu Quê hương Thái Bình — Tạo bởi Phạm Thanh Hiền</p>
+    <p>🌾 Quê Hương Thái Bình</p>
+    <p style="margin-top:0.5rem; font-weight:600; color:#00f5d4;">Tác giả: Phạm Thành Hiến</p>
 </footer>
 
 </body>
